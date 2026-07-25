@@ -1,0 +1,54 @@
+{
+  "name": "@pulsenetwork/mcp",
+  "version": "0.1.0",
+  "description": "Give your AI agent a wallet and 900+ pay-per-call intelligence APIs. Local MCP server with a zero-config wallet, hard spend caps enforced below the model, and free discovery across the PulseNetwork x402 fleet (finance, crypto, health, law, travel, climate, and more).",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "pulsenetwork-mcp": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "x402",
+    "agent",
+    "wallet",
+    "usdc",
+    "base",
+    "micropayments",
+    "agentic-commerce",
+    "api",
+    "data",
+    "pulsenetwork"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GTCC777/pulsepay-mcp"
+  },
+  "homepage": "https://pulse.theaslangroupllc.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@x402/core": "^2.16.0",
+    "@x402/evm": "^2.16.0",
+    "@x402/fetch": "^2.16.0",
+    "viem": "^2.52.2",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
