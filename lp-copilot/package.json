@@ -1,0 +1,57 @@
+{
+  "name": "@pulsenetwork/lp-copilot-mcp",
+  "version": "0.1.0",
+  "description": "LP copilot for AI agents: enumerate your concentrated-liquidity positions on 11 chains for free, then buy deterministic backtested range scenarios, IL forecasts, position health and points-campaign EV per call (x402 USDC, no API key). Non-custodial — your keys, your agent, hard local spend caps. Shares its wallet with @pulsenetwork/mcp.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "lp-copilot-mcp": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "x402",
+    "liquidity",
+    "uniswap-v3",
+    "lp",
+    "impermanent-loss",
+    "concentrated-liquidity",
+    "points",
+    "airdrop",
+    "agent",
+    "usdc",
+    "micropayments",
+    "pulsenetwork"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GTCC777/pulsepay-mcp",
+    "directory": "lp-copilot"
+  },
+  "homepage": "https://airdroppulse.theaslangroupllc.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@x402/core": "^2.16.0",
+    "@x402/evm": "^2.16.0",
+    "@x402/fetch": "^2.16.0",
+    "viem": "^2.52.2",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
