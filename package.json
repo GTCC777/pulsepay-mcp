@@ -1,6 +1,6 @@
 {
   "name": "@pulsenetwork/mcp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Give your AI agent a wallet and 900+ pay-per-call intelligence APIs. Local MCP server with a zero-config wallet, hard spend caps enforced below the model, and free discovery across the PulseNetwork x402 fleet (finance, crypto, health, law, travel, climate, and more).",
   "license": "MIT",
   "type": "module",
@@ -50,5 +50,6 @@
   "devDependencies": {
     "typescript": "^5.5.0",
     "@types/node": "^22.0.0"
-  }
+  },
+  "mcpName": "com.theaslangroupllc.pulse/agent-wallet"
 }

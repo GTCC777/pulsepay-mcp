@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.theaslangroupllc.pulse/lp-copilot",
+  "description": "LP copilot: free position enumeration on 7 chains + paid range backtests, IL forecasts, points EV",
+  "version": "0.1.1",
+  "repository": {
+    "url": "https://github.com/GTCC777/pulsepay-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://airdroppulse.theaslangroupllc.com",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@pulsenetwork/lp-copilot-mcp",
+      "version": "0.1.1",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

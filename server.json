@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.theaslangroupllc.pulse/agent-wallet",
+  "description": "Local agent wallet + 900 pay-per-call data APIs — free discovery, x402 USDC, code-level spend caps",
+  "version": "0.2.1",
+  "repository": {
+    "url": "https://github.com/GTCC777/pulsepay-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://pulse.theaslangroupllc.com",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@pulsenetwork/mcp",
+      "version": "0.2.1",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

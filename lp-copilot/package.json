@@ -1,6 +1,6 @@
 {
   "name": "@pulsenetwork/lp-copilot-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "LP copilot for AI agents: enumerate your concentrated-liquidity positions on 11 chains for free, then buy deterministic backtested range scenarios, IL forecasts, position health and points-campaign EV per call (x402 USDC, no API key). Non-custodial — your keys, your agent, hard local spend caps. Shares its wallet with @pulsenetwork/mcp.",
   "license": "MIT",
   "type": "module",
@@ -53,5 +53,6 @@
   "devDependencies": {
     "typescript": "^5.5.0",
     "@types/node": "^22.0.0"
-  }
+  },
+  "mcpName": "com.theaslangroupllc.pulse/lp-copilot"
 }
